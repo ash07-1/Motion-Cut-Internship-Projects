@@ -1,0 +1,78 @@
+@media screen and (max-width:991px) {
+    .hamburger-icon {
+        display: block;
+        margin-right: 20px;
+    }
+    .lnav {
+        display: none;
+    }
+    .footer-card {
+        gap: 20px;
+    }
+    .fcard {
+        width: calc(50% - 10px);
+        height: 200px;
+    }
+    .cta-section {
+        padding: 40px 25px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    h3 {
+        font-size: 1.1rem;
+    }
+    .header-section {
+        flex-direction: column-reverse;
+    }
+    .header-left {
+        max-width: 100vw;
+        text-align: center;
+    }
+    .dark-button {
+        width: 100%;
+        
+    }
+    .card {
+        width: calc(50% - 10px);
+    }
+    .big-section-container {
+        flex-direction: column;
+    }
+    #middle-big-section {
+        flex-direction: column;
+    }
+    .footer-wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+        padding: 40px 0;
+    }
+    .sub-footer {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width:479px) {
+    .container {
+        padding-inline: 10px;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+    .card {
+        width: calc(100% - 10px);
+        padding: 10px;
+    }
+    .fcard {
+        width: 100%;
+        height: 200px;
+    }
+}
